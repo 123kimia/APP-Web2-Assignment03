@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment03</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Title of my shopping cart -->
+    <header>
+        <h1>&#6005;My Cart&#6005;</h1>
+    </header>
+   
+    <!-- Div container of my products-->
+    <div class="content">
+        <div class="product" id="product1">
+            <!-- The first product with its image, name and price-->
+            <img src="product1.jpg" alt="Nike Shoes">
+            <h2><strong>Nike Shoes</strong></h2>
+            <h3>$130</h3>
+        </div>
+        <div class="product" id="product2">
+            <!-- The second product with its image, name and price-->
+            <img src="product2.jpg" alt="Converse Shoes">
+            <h2><strong>Converse Shoes</strong></h2>
+            <h3>$85</h3>
+        </div>
+        <div class="product" id="product3">
+            <!-- The third product with its image, name and price-->
+            <img src="product3.jpg" alt="Allen Cooper Sports Shoes">
+            <h2><strong>Allen Cooper Sports Shoes</strong></h2>
+            <h3>$115</h3>
+        </div>
+    </div>
+    
+    <div class="cart">
+        <!-- Grab the cart subtotal, tax and total, then update the amounts-->
+        <strong>Cart Subtotal: </strong>
+        $<span id="subtotal">0</span>
+
+        <strong>Cart Tax:</strong>
+        $<span id="tax">0</span>
+
+        <strong>Cart Total:</strong>
+        $<span id="total">0</span>
+    </div>
+    <!-- My footer, showcasing the author-->
+    <footer>Made by <strong>Kimia Zamani</strong></footer>
+    
+    <!-- My javaScript reference-->
+    <script src="main.js">
+       
+    </script>
+</body>
+</html>

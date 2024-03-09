@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+}
+header {
+    background-color: rgb(56, 68, 240);
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  
+
+}
+.content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+img {
+    display: block;
+    width: 250px;
+    border-radius: 25px;
+    height: 250px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 5%;
+   
+
+}
+img:hover{
+    opacity: 0.5;
+}
+
+
+.cart {
+    text-align: left;
+    font-size: 30px;
+    font-family: serif;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-size: 120%;
+    width: 100%;
+    color: aliceblue;
+    margin-top: 100px;
+   
+}
